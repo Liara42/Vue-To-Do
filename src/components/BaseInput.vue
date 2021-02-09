@@ -23,8 +23,12 @@ export default {
   },
   methods: {
     addItem() {
-      this.$store.dispatch('addItem', this.item);
-      this.item = '';
+      if (this.item === '') {
+        alert('You must enter something');
+      } else {
+        this.$store.dispatch('addItem', this.item);
+        this.item = '';
+      }
     },
   },
 };

@@ -1,16 +1,6 @@
 {
   "todos": [
     {
-      "id": 1,
-      "name": "Zena",
-      "check": false
-    },
-    {
-      "id": 3,
-      "name": "Kraljica",
-      "check": false
-    },
-    {
       "id": 4,
       "name": "Pooper",
       "check": false
@@ -21,14 +11,9 @@
       "check": true
     },
     {
-      "id": 7,
-      "name": "Added",
-      "check": false
-    },
-    {
-      "id": 10,
-      "name": "Pooper",
-      "check": false
+      "id": 11,
+      "name": "Poopmachine",
+      "check": true
     }
   ]
 }
