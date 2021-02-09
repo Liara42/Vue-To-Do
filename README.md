@@ -1,8 +1,14 @@
 # vue-to-do
+Simple Vue To Do App, built with Vue 3 and Vuex 4.
+
 
 ## Project setup
 ```
 npm install
+```
+### Run JSON server
+```
+json-server --watch db.json
 ```
 
 ### Compiles and hot-reloads for development
@@ -22,3 +28,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
